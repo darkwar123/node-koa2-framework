@@ -1,0 +1,32 @@
+{
+  "name": "default-server",
+  "version": "1.0.0",
+  "description": "Default http2 server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development && set DEBUG=koa-framework*,koa-server* && set PUBLIC_DIR=app/public && set PORT=3000 && node index.js",
+    "prod": "set NODE_ENV=production && set APP_DIR=app && set REDIS_URL=redis://localhost:27017&& set MONGODB_URL=mongodb://localhost:27017/database && set SESSION_KEY=someRandomSessionKey && set DEBUG=koa-server:info,koa-server:error && set PUBLIC_DIR=app/public && set PORT=3000 && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwar123/node-koa2-framework.git"
+  },
+  "author": "darkwar123",
+  "license": "ISC",
+  "dependencies": {
+    "default-koa-server": "^1.0.1",
+    "ioredis": "^3.2.2",
+    "koa-passport": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.2.3",
+    "redis": "^2.8.0"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@redis": "lib/database/redis",
+    "@mongodb": "lib/database/mongodb",
+    "@config": "lib/components/config",
+    "@log": "lib/components/log"
+  }
+}
