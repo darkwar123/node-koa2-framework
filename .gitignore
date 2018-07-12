@@ -61,6 +61,5 @@ typings/
 .next
 
 # Custom
-app
 .idea/
 package-lock.json
