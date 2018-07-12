@@ -1,7 +1,7 @@
 {
-  "name": "default-server",
+  "name": "koa2-framework",
   "version": "1.0.0",
-  "description": "Default http2 server",
+  "description": "Framework for Koa.js",
   "main": "index.js",
   "scripts": {
     "dev": "set NODE_ENV=development && set DEBUG=koa-framework*,koa-server* && set PUBLIC_DIR=app/public && set PORT=3000 && node index.js",
@@ -15,7 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "default-koa-server": "^1.0.1",
-    "ioredis": "^3.2.2",
     "koa-passport": "^4.1.0",
     "koa-router": "^7.4.0",
     "module-alias": "^2.1.0",
