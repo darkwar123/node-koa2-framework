@@ -62,5 +62,5 @@ typings/
 
 # Custom
 .idea/
-app/
+./app/
 package-lock.json
