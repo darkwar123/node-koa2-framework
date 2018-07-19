@@ -1,6 +1,6 @@
 {
   "name": "koa2-framework",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Framework for Koa.js",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "author": "darkwar123",
   "license": "ISC",
   "dependencies": {
-    "default-koa-server": "^1.0.1",
+    "default-koa-server": "^1.0.2",
     "default-socket.io-server": "^1.0.0",
     "koa-passport": "^4.1.0",
     "koa-router": "^7.4.0",
