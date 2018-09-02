@@ -1,6 +1,6 @@
 {
   "name": "koa2-framework",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Framework for Koa.js",
   "main": "index.js",
   "scripts": {
